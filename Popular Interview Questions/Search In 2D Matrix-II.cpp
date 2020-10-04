@@ -7,7 +7,7 @@
         Given a key k find if the key exists in the matrix of not.
         Return true if the key exists and false if key doesn't exixts.
 
-        Expected Time Complexity - O(n*m)
+        Expected Time Complexity - O(log(n*m))
         Expected Space Complexity - O(1)
 
 
