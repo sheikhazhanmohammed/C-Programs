@@ -5,7 +5,7 @@ class Node
   public:
     int data;
     Node* next;
-    void Node(int d)
+    Node(int d)
     {
       data=d;
       next=NULL;
@@ -31,7 +31,7 @@ void InsertAtTail(Node* &head, int d, Node* &tail)
 {
   if(tail==NULL)
   {
-    Node* a= new Node(d);
+    Node* a = new Node(d);
     tail->next=a;
     tail=a;
     head=a;
